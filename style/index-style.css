@@ -16,10 +16,6 @@ h1 {
     font-size: 70px;
 }
 
-#chicken-adobo {
-    background-color: bisque;
-}
-
 .recipe {
     width: 1250px;
     border: 3px solid black;
@@ -29,6 +25,7 @@ h1 {
 img {
     display: inline-block;
     width: 500px;
+    height: 281px;
 }
 
 .recipe-description {
@@ -49,35 +46,29 @@ img {
     margin-bottom: 20px;
 }
 
-.nutrition-facts {
-    width: 950px;
+.duration {
+    width: 400px;
     display: inline-block;
 }
 
-ul {
+.time-duration {
+    font-size: 14px;
     list-style: none;
-}
-
-.nutrition-facts .information {
-    font-size: 20px;
-}
-
-ul li {
     display: inline-block;
-    margin: 10px;
 }
 
-.property {
-    font-weight: 700;
+.time-duration li {
+    display: inline-block;
+    margin-right: 7px;
 }
 
 .recipe-link {
     background-color: orange;
     width: 150px;
-    height: 50px;
-    margin: 0 50px;
+    height: 38px;
+    margin: 0 10px;
     text-align: center;
-    line-height: 50px;
+    line-height: 38px;
     border: 3px solid brown;
     display: inline-block;
     vertical-align: top;
@@ -90,3 +81,15 @@ a {
     font-size: 20px;
     display: inline-block;
 } 
+
+#chicken-adobo {
+    background-color: bisque;
+}
+
+#american-goulash {
+    background-color: aquamarine;
+}
+
+#pork-sinigang {
+    background-color: aqua;
+}
